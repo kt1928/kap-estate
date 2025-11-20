@@ -89,7 +89,7 @@ Simplified Zillow-only app, actually DEPLOYED in production at data.kap-mgmt.com
 - Excellent deployment documentation (Cloudflare setup guide)
 
 **THE BAD:**
-- **SECURITY CATASTROPHE**: API key hardcoded in source: `9962c196b1msh7a9d0679dfee34bp12083ejsn7d01eb7417e7`
+- **SECURITY CATASTROPHE**: API key hardcoded in source: `[INSERT KEY HERE]`
 - **1,094-line monolithic app.py** - single file nightmare
 - Massive code duplication (same logic copy-pasted 4+ times)
 - XSS vulnerability with `unsafe_allow_html=True` everywhere
@@ -143,9 +143,9 @@ Next.js frontend with beautiful Nord dark theme for NYC real estate analysis.
 
 **THE BAD:**
 - **SECURITY DISASTER**: 3 API keys hardcoded in multiple files:
-  - Google Maps: `AIzaSyDbz57aiq84gAgJpXTovaBHNCPSWUCvw5w`
-  - WalkScore: `50cf9f14fdb1be9b6a7c4b4936bbf641`
-  - RapidAPI: `d0507127fmsh27c67569d07afeep1b0efajsn3f91fd10d987`
+  - Google Maps: `[INSERT KEY HERE]`
+  - WalkScore: `[INSERT KEY HERE]`
+  - RapidAPI: `[INSERT KEY HERE]`
 - `.env.local` committed to repo (should be .gitignored)
 - 1,749-line component file (location-analysis/page.tsx)
 - 6 duplicate safety heatmap components
@@ -345,12 +345,12 @@ Your deployed project (re-data-agg) has the most technical debt.
 ## The Brutal Truth: Security Across All Projects
 
 ### Exposed API Keys Found:
-1. **RE Data Aggregation**: `c97dc4f002mshddcd297a818f8ccp126d95jsncdba699b2502` (4 APIs)
-2. **re-data-agg**: `9962c196b1msh7a9d0679dfee34bp12083ejsn7d01eb7417e7` (Zillow)
+1. **RE Data Aggregation**: `[INSERT KEY HERE]` (4 APIs)
+2. **re-data-agg**: `[INSERT KEY HERE]` (Zillow)
 3. **re_app**:
-   - Google Maps: `AIzaSyDbz57aiq84gAgJpXTovaBHNCPSWUCvw5w`
-   - WalkScore: `50cf9f14fdb1be9b6a7c4b4936bbf641`
-   - RapidAPI: `d0507127fmsh27c67569d07afeep1b0efajsn3f91fd10d987`
+   - Google Maps: `[INSERT KEY HERE]`
+   - WalkScore: `[INSERT KEY HERE]`
+   - RapidAPI: `[INSERT KEY HERE]`
 4. **re_platform**: .env files committed
 5. **re_platform_2.0**: Default secrets with fallbacks
 

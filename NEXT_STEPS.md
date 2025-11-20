@@ -35,15 +35,15 @@
 All these keys were found hardcoded in your projects and must be revoked:
 
 **RapidAPI Keys:**
-- `c97dc4f002mshddcd297a818f8ccp126d95jsncdba699b2502` (RE Data Aggregation)
-- `9962c196b1msh7a9d0679dfee34bp12083ejsn7d01eb7417e7` (re-data-agg)
-- `d0507127fmsh27c67569d07afeep1b0efajsn3f91fd10d987` (re_app)
+- `[INSERT KEY HERE]` (RE Data Aggregation)
+- `[INSERT KEY HERE]` (re-data-agg)
+- `[INSERT KEY HERE]` (re_app)
 
 **Google Maps API:**
-- `AIzaSyDbz57aiq84gAgJpXTovaBHNCPSWUCvw5w` (re_app)
+- `[INSERT KEY HERE]` (re_app)
 
 **WalkScore API:**
-- `50cf9f14fdb1be9b6a7c4b4936bbf641` (re_app)
+- `[INSERT KEY HERE]` (re_app)
 
 **Actions:**
 ```bash
